@@ -86,27 +86,3 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
-
-
-/* スマホ・タブレット対応のレスポンシブデザイン */
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .card-display, .info {
-        width: 100%;
-        text-align: center;
-    }
-
-    .input-group {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .input-group input, .input-group button {
-        width: 80%;
-    }
-}
